@@ -1,0 +1,16 @@
+node_modules/
+.work/
+dist/
+output/
+generated/
+course-materials/
+ocr-cache/
+
+*.log
+*.tmp
+*.bak
+~$*.docx
+
+.DS_Store
+Thumbs.db
+

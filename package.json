@@ -1,0 +1,17 @@
+{
+  "name": "bilingual-course-study-skill",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Codex skill for bilingual course-note generation, cumulative review, source coverage, and coursework assistance.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "validate": "node --check scripts/ocr-image.mjs && node --check scripts/prepare-notes-docx.mjs && node --check scripts/validate-course-cache.mjs && node --check scripts/validate-source-coverage.mjs"
+  },
+  "dependencies": {
+    "tesseract.js": "^7.0.0"
+  }
+}
+
